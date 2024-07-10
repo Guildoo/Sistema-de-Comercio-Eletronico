@@ -7,7 +7,6 @@ public class Usuario {
         this.email = email;
     }
 
-    //Getter and Setter
     public String getNome() {
         return nome;
     }
@@ -24,7 +23,6 @@ public class Usuario {
         this.email = email;
     }
 
-    @Override
     public String tipoDeUsuario() {
         return "Tipo não especificado";
     }

@@ -2,10 +2,8 @@ public class Cliente extends Usuario {
     private String endereco;
     public Cliente(String nome, String email, String endereco) {
         super(nome, email);
-        this.endereco;
+        this.endereco = endereco;
     }
-
-    //Getter and Setter
 
     public String getEndereco() {
         return endereco;

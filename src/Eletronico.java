@@ -14,7 +14,6 @@ public class Eletronico extends Produto {
         return getPreco() * 0.9; //Desconto específico para Eletronicos
     }
 
-    //Getter and Setter
     public String getMarca() {
         return marca;
     }

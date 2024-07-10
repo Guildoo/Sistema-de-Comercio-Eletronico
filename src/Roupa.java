@@ -13,7 +13,6 @@ public class Roupa extends Produto {
         return getPreco() * 0.8; //Desconto específico para Roupas
     }
 
-    //Getter and Setter
     public String getTamanho() {
         return tamanho;
     }

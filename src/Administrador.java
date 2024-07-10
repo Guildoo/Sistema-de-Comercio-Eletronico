@@ -6,7 +6,7 @@ public class Administrador extends Usuario{
 
     @Override
     public String tipoDeUsuario() {
-        return "Administrador"; // tipo de usuario
+        return "Administrador"; 
     }
 }
 

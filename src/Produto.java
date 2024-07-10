@@ -32,7 +32,7 @@ public abstract class Produto {
     }
 
     public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
-        this.quantidadeEmEstoque = quantidadeEmEstoque; // calc quantidade
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
 }

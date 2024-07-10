@@ -3,8 +3,10 @@ public class Administrador extends Usuario{
         super(nome, email);
     }
 
+
     @Override
     public String tipoDeUsuario() {
-        return "Administrador";
+        return "Administrador"; // tipo de usuario
     }
 }
+
